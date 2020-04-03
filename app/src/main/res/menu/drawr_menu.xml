@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Nav_Upcoming"
+            android:icon="@drawable/ic_fiber_new_black_24dp"
+            android:title="Upcoming/Recently Released"
+            />
+
+        <item
+            android:id="@+id/Nav_Search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Search"
+            />
+
+        <item
+            android:id="@+id/Nav_By_Rating"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="By Rating"
+            />
+
+        <item
+            android:id="@+id/Nav_By_Date"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="By Date"
+            />
+
+        <item
+            android:id="@+id/Nav_User_List"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="List"
+            />
+
+
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Nav_Profile"
+                    android:icon="@drawable/ic_person_black_24dp"
+                    android:title="Profile"
+                    />
+
+                <item
+                    android:id="@+id/Nav_Search_Users"
+                    android:icon="@drawable/ic_people_black_24dp"
+                    android:title="Search Users"
+                    />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/Nav_Log_Out"
+        android:icon="@drawable/ic_subdirectory_arrow_left_black_24dp"
+        android:title="Log_Out"
+        />
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "548353042087",
+    "firebase_url": "https://cinemap-680f1.firebaseio.com",
+    "project_id": "cinemap-680f1",
+    "storage_bucket": "cinemap-680f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548353042087:android:38c5ccd926d1c2671a1d82",
+        "android_client_info": {
+          "package_name": "com.example.cinemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548353042087-1jsh5id3mq9h4lsofkuh8l34kmk64auc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuoqWc0Q1ZHAkQHISk1R-jq7aruia0XKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548353042087-1jsh5id3mq9h4lsofkuh8l34kmk64auc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

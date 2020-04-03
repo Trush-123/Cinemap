@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Page_Title"
+        android:text="The apps best rated movies (In order)"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/By_Rated_List"
+        android:layout_below="@+id/Page_Title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Page_Title"
+        android:text="Search for movies within a specific range "
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Spinner
+        android:id="@+id/by_date_year"
+        android:entries="@array/Year_Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <Spinner
+        android:id="@+id/by_date_month"
+        android:entries="@array/Month_Chosen_Filter"
+        android:layout_toRightOf="@+id/by_date_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <Button
+        android:id="@+id/By_Date_Search"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Search"
+        android:layout_below="@+id/by_date_year"
+        android:layout_marginStart="150dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/by_date_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/By_Date_Search"
+        />
+
+</RelativeLayout>
